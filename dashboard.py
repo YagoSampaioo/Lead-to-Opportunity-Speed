@@ -1,7 +1,6 @@
 # dashboard.py
 import os
 import datetime as dt
-from dotenv import load_dotenv
 import pandas as pd
 from supabase import create_client, Client
 import streamlit as st
@@ -12,9 +11,6 @@ from google.oauth2.credentials import Credentials
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
-
-# Carrega as variáveis de ambiente do arquivo .env
-load_dotenv()
 
 # --- CONFIGURAÇÃO ---
 SUPABASE_URL = os.getenv("SUPABASE_URL")
