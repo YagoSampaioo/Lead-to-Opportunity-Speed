@@ -1,0 +1,20 @@
+# Arquivo de variáveis de ambiente com as chaves do Supabase (MUITO SENSÍVEL)
+.env
+
+# Arquivos de credenciais e tokens de acesso do Google (SENSÍVEL)
+token.json
+credentials.json
+
+# Pastas e arquivos de cache gerados pelo Python
+__pycache__/
+*.pyc
+
+# Pastas de ambiente virtual (se você usar)
+venv/
+.venv/
+env/
+.env/
+
+# Arquivos de sistema operacional que não devem ser versionados
+.DS_Store
+Thumbs.db
